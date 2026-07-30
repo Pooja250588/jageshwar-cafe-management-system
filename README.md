@@ -116,21 +116,6 @@ npm start
 
 ---
 
-## 📸 Screenshots
-
-> Add screenshots of your application here.
-
-Example:
-
-- Home Page
-- Menu Page
-- Cart
-- Checkout
-- Admin Dashboard
-- Orders Page
-
----
-
 ## 🎯 Future Improvements
 
 - Online Payment Integration
