@@ -1,16 +1,183 @@
-# React + Vite
+# ☕ Jageshwar Cafe Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern full-stack MERN web application for managing a cafe and providing customers with a seamless online food ordering experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📖 Overview
 
-## React Compiler
+Jageshwar Cafe Management System is designed to simplify restaurant operations by allowing customers to browse the menu, place orders online, and track their order history. The application also provides an admin dashboard to manage food items, customer orders, and menu availability.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 👤 Customer
+
+- User Registration & Login
+- Browse Food Menu
+- Search & Filter Menu Items
+- Add/Remove Items from Cart
+- Secure Checkout
+- View Order History
+- Update Profile
+- Submit Reviews & Ratings
+- Responsive UI for Mobile & Desktop
+
+### 👨‍💼 Admin
+
+- Admin Dashboard
+- Add/Edit/Delete Food Items
+- Update Food Availability
+- View Customer Orders
+- Update Order Status
+- Manage Categories
+- Monitor Sales
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- React Router
+- Axios
+- Tailwind CSS / CSS
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- MongoDB
+- Mongoose
+
+### Authentication
+- JWT (JSON Web Token)
+- bcrypt.js
+
+---
+
+## 📂 Project Structure
+
+```
+jageshwar-cafe-management-system/
+│
+├── client/
+│   ├── src/
+│   ├── public/
+│   └── package.json
+│
+├── server/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│   ├── server.js
+│   └── package.json
+│
+└── README.md
+```
+
+---
+
+## 🚀 Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/Pooja250588/jageshwar-cafe-management-system.git
+```
+
+### Navigate to Project
+
+```bash
+cd jageshwar-cafe-management-system
+```
+
+### Install Dependencies
+
+#### Frontend
+
+```bash
+cd client
+npm install
+npm run dev
+```
+
+#### Backend
+
+```bash
+cd server
+npm install
+npm start
+```
+
+---
+
+## 📸 Screenshots
+
+> Add screenshots of your application here.
+
+Example:
+
+- Home Page
+- Menu Page
+- Cart
+- Checkout
+- Admin Dashboard
+- Orders Page
+
+---
+
+## 🎯 Future Improvements
+
+- Online Payment Integration
+- Email Notifications
+- Delivery Tracking
+- Coupon System
+- Analytics Dashboard
+- Dark Mode
+- Real-time Order Notifications
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+2. Create a new branch
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit changes
+
+```bash
+git commit -m "Add new feature"
+```
+
+4. Push
+
+```bash
+git push origin feature-name
+```
+
+5. Open a Pull Request
+
+---
+
+## 👩‍💻 Author
+
+**Pooja Wanjare**
+
+GitHub: https://github.com/Pooja250588
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, please consider giving it a ⭐ on GitHub.
